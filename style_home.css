@@ -48,18 +48,53 @@ table {
 }
 #header {
 	width : 70% ;
-	margin : 0 auto 0 auto ;
+	margin : 5% auto 0 auto ;
 }
 
+.menu {
+	font-size: 1.54em;
+font-weight: 600;
+color: #3e3e3e;
+width: 100%;
+text-align: center;
+padding-bottom: 35px;
+}
+
+.top-link {
+	width : 30% ;
+	float : right ;
+}
+
+.menu {
+	width : 70% ;
+	margin : 0 auto 0 auto ;
+}
 
 
 .visual {
-	width : 70% ;
-	margin : 0 auto 0 auto ;
+	width : 1500px ;
+	margin : 5% auto 10% auto ;
 	display: grid;
 	justify-content: center;
-	grid-template-columns: 10% 25% 25% ;
+
 }
+
+.obj_1 {
+	float: left;
+}
+.obj_2 {
+	width : 30% ;
+	float : left ;
+}
+
+.img_2 {
+	width : 80% ;
+}
+.obj_3 {
+	width: 30% ;
+	float : right;
+}
+
 .background1 {
 	background-image: url("assets/backimage.jpg") ;
 }
@@ -67,6 +102,7 @@ table {
 .visual_text {
 	color : white ;
 	text-align: center;
+	padding-top: 5%
 }
 
 .visual_text h2 {
