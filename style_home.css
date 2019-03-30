@@ -42,14 +42,26 @@ table {
 	border-spacing: 0;
 }
 
+#body {
+	margin-left: 10% ;
+	margin-right: 10% ;
+}
+#header {
+	width : 70% ;
+	margin : 0 auto 0 auto ;
+}
+
+
 
 .visual {
+	width : 70% ;
+	margin : 0 auto 0 auto ;
 	display: grid;
 	justify-content: center;
 	grid-template-columns: 10% 25% 25% ;
 }
 .background1 {
-	background-image: url("assets/backimage.jpg");
+	background-image: url("assets/backimage.jpg") ;
 }
 
 .visual_text {
@@ -67,10 +79,13 @@ table {
     font-size: 1.44em;
 }
 
-#obj_2 {
-	background : red ;
+
+footer {
+	width : 70% ;
+	margin : 0 auto 0 auto ;
 }
 
-#obj_3 {
-	background : yellow ;
+.wrap-policy {
+	display: grid;
+	grid-template-columns: 200px 200px 200px ;
 }
